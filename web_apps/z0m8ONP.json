@@ -1,0 +1,37 @@
+{
+  "type": "webapp_interactive-scoring_endpoint-range-scoring",
+  "hasLegacyBackendURL": false,
+  "params": {
+    "backendEnabled": true,
+    "autoStartBackend": false,
+    "envSelection": {
+      "envMode": "INHERIT"
+    },
+    "libraries": [
+      "jquery",
+      "dataiku"
+    ]
+  },
+  "config": {},
+  "name": "test",
+  "apiKey": "l18tOJRR5GGWOMR0KbeBfaOlXDD3DGlC",
+  "versionTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1552594893537
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1552594893537
+  },
+  "tags": [],
+  "checklists": {
+    "checklists": []
+  },
+  "customFields": {}
+}
