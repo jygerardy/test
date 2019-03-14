@@ -3,7 +3,7 @@
   "hasLegacyBackendURL": false,
   "params": {
     "backendEnabled": true,
-    "autoStartBackend": false,
+    "autoStartBackend": true,
     "envSelection": {
       "envMode": "INHERIT"
     },
@@ -18,11 +18,11 @@
   "name": "test",
   "apiKey": "l18tOJRR5GGWOMR0KbeBfaOlXDD3DGlC",
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1552594947347
+    "lastModifiedOn": 1552595048372
   },
   "creationTag": {
     "versionNumber": 0,
