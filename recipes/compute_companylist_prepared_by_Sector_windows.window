@@ -4,6 +4,7 @@
     "enabled": false
   },
   "ntileValues": "10",
+  "keys": [],
   "values": [
     {
       "last": false,
@@ -12,9 +13,11 @@
       "firstLastNotNull": false,
       "column": "Sector",
       "count": false,
+      "$idx": 0,
       "lagValues": "1",
       "sum": false,
       "concat": false,
+      "type": "string",
       "lead": false,
       "concatDistinct": false,
       "dateDiffUnit": "DAY",
@@ -35,9 +38,11 @@
       "firstLastNotNull": false,
       "column": "Symbol_distinct",
       "count": false,
+      "$idx": 1,
       "lagValues": "1",
       "sum": false,
       "concat": false,
+      "type": "bigint",
       "lead": false,
       "concatDistinct": false,
       "dateDiffUnit": "DAY",
@@ -58,9 +63,11 @@
       "firstLastNotNull": false,
       "column": "count",
       "count": false,
+      "$idx": 2,
       "lagValues": "1",
-      "sum": false,
+      "sum": true,
       "concat": false,
+      "type": "bigint",
       "lead": false,
       "concatDistinct": false,
       "dateDiffUnit": "DAY",
@@ -75,6 +82,49 @@
       "first": false
     }
   ],
+  "windows": [
+    {
+      "windowUpperBound": 0,
+      "enablePartitioning": false,
+      "enableOrdering": false,
+      "precedingRows": 0,
+      "limitFollowing": false,
+      "orders": [],
+      "limitPreceding": false,
+      "followingRows": 0,
+      "windowLowerBound": 0,
+      "enableLimits": false
+    }
+  ],
+  "computedColumns": [],
+  "postFilter": {
+    "$status": {
+      "schema": {
+        "columns": [
+          {
+            "name": "Sector",
+            "type": "string"
+          },
+          {
+            "name": "Symbol_distinct",
+            "type": "bigint"
+          },
+          {
+            "name": "count",
+            "type": "bigint"
+          },
+          {
+            "name": "count_sum",
+            "type": "bigint"
+          }
+        ],
+        "userModified": false
+      }
+    },
+    "distinct": false,
+    "enabled": false
+  },
+  "cumeDist": false,
   "engineParams": {
     "hive": {
       "skipPrerunValidate": false,
@@ -105,25 +155,6 @@
   "ntile": false,
   "rank": false,
   "denseRank": false,
-  "windows": [
-    {
-      "windowUpperBound": 0.0,
-      "enablePartitioning": false,
-      "enableOrdering": false,
-      "precedingRows": 0,
-      "limitFollowing": false,
-      "orders": [],
-      "limitPreceding": false,
-      "followingRows": 0,
-      "windowLowerBound": 0.0,
-      "enableLimits": false
-    }
-  ],
   "rowNumber": false,
-  "computedColumns": [],
-  "postFilter": {
-    "distinct": false,
-    "enabled": false
-  },
-  "cumeDist": false
+  "outputColumnNameOverrides": {}
 }
