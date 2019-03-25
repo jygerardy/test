@@ -65,6 +65,53 @@
   },
   "outputColumnNameOverrides": {},
   "postFilter": {
+    "$status": {
+      "schema": {
+        "columns": [
+          {
+            "name": "Symbol",
+            "type": "string"
+          },
+          {
+            "name": "Name",
+            "type": "string"
+          },
+          {
+            "name": "LastSale",
+            "type": "string"
+          },
+          {
+            "name": "MarketCap",
+            "type": "double"
+          },
+          {
+            "name": "ADR TSO",
+            "type": "string"
+          },
+          {
+            "name": "IPOyear",
+            "type": "string"
+          },
+          {
+            "name": "Sector",
+            "type": "string"
+          },
+          {
+            "name": "Industry",
+            "type": "string"
+          },
+          {
+            "name": "Summary Quote",
+            "type": "string"
+          },
+          {
+            "name": "col_9",
+            "type": "string"
+          }
+        ],
+        "userModified": false
+      }
+    },
     "distinct": false,
     "enabled": false
   }
