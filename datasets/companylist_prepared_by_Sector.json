@@ -28,11 +28,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1553483608444
+    "lastModifiedOn": 1553483614061
   },
   "creationTag": {
     "versionNumber": 0,
@@ -61,6 +61,10 @@
       {
         "name": "Sector",
         "type": "string"
+      },
+      {
+        "name": "Symbol_distinct",
+        "type": "bigint"
       },
       {
         "name": "count",
