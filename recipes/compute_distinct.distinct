@@ -1,0 +1,71 @@
+{
+  "preFilter": {
+    "distinct": false,
+    "enabled": false
+  },
+  "keys": [
+    {
+      "column": "Symbol"
+    },
+    {
+      "column": "Name"
+    },
+    {
+      "column": "LastSale"
+    },
+    {
+      "column": "MarketCap"
+    },
+    {
+      "column": "ADR TSO"
+    },
+    {
+      "column": "IPOyear"
+    },
+    {
+      "column": "Sector"
+    },
+    {
+      "column": "Industry"
+    },
+    {
+      "column": "Summary Quote"
+    },
+    {
+      "column": "col_9"
+    }
+  ],
+  "globalCount": false,
+  "engineParams": {
+    "hive": {
+      "skipPrerunValidate": false,
+      "hiveconf": [],
+      "inheritConf": "default",
+      "addDkuUdf": false,
+      "executionEngine": "HIVECLI_LOCAL"
+    },
+    "impala": {
+      "forceStreamMode": true
+    },
+    "lowerCaseSchemaIfEngineRequiresIt": true,
+    "sparkSQL": {
+      "pipelineAllowMerge": true,
+      "useGlobalMetastore": false,
+      "pipelineAllowStart": true,
+      "readParams": {
+        "map": {}
+      },
+      "overwriteOutputSchema": false,
+      "executionEngine": "SPARK_SUBMIT",
+      "sparkConfig": {
+        "inheritConf": "default",
+        "conf": []
+      }
+    }
+  },
+  "outputColumnNameOverrides": {},
+  "postFilter": {
+    "distinct": false,
+    "enabled": false
+  }
+}
