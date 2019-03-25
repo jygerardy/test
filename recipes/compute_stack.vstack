@@ -1,0 +1,68 @@
+{
+  "mode": "UNION",
+  "selectedColumns": [
+    "Symbol",
+    "Name",
+    "LastSale",
+    "MarketCap",
+    "ADR TSO",
+    "IPOyear",
+    "Sector",
+    "Industry",
+    "Summary Quote",
+    "col_9",
+    "Symbol_distinct",
+    "count"
+  ],
+  "originColumnName": "original_dataset",
+  "engineParams": {
+    "hive": {
+      "skipPrerunValidate": false,
+      "hiveconf": [],
+      "inheritConf": "default",
+      "addDkuUdf": false,
+      "executionEngine": "HIVECLI_LOCAL"
+    },
+    "impala": {
+      "forceStreamMode": true
+    },
+    "lowerCaseSchemaIfEngineRequiresIt": true,
+    "sparkSQL": {
+      "pipelineAllowMerge": true,
+      "useGlobalMetastore": false,
+      "pipelineAllowStart": true,
+      "readParams": {
+        "map": {}
+      },
+      "overwriteOutputSchema": false,
+      "executionEngine": "SPARK_SUBMIT",
+      "sparkConfig": {
+        "inheritConf": "default",
+        "conf": []
+      }
+    }
+  },
+  "virtualInputs": [
+    {
+      "preFilter": {
+        "distinct": false,
+        "enabled": false
+      },
+      "originLabel": "companylist_prepared",
+      "index": 0
+    },
+    {
+      "preFilter": {
+        "distinct": false,
+        "enabled": false
+      },
+      "originLabel": "companylist_prepared_by_Sector",
+      "index": 1
+    }
+  ],
+  "postFilter": {
+    "distinct": false,
+    "enabled": false
+  },
+  "addOriginColumn": false
+}
