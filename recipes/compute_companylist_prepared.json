@@ -13,7 +13,12 @@
         },
         "executionEngine": "SPARK_SUBMIT",
         "readParams": {
-          "map": {}
+          "map": {
+            "companylist": {
+              "repartition": 10,
+              "cache": false
+            }
+          }
         },
         "useGlobalMetastore": false,
         "useNativeProcessors": true
@@ -58,11 +63,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1553483552643
+    "lastModifiedOn": 1553483569094
   },
   "creationTag": {
     "versionNumber": 0,
