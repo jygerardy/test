@@ -28,11 +28,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1553513090310
+    "lastModifiedOn": 1553513101453
   },
   "creationTag": {
     "versionNumber": 0,
@@ -57,8 +57,269 @@
     "readSQLDateColsAsDSSDates": true
   },
   "schema": {
-    "columns": [],
-    "userModified": false
+    "columns": [
+      {
+        "name": "0.25_count",
+        "type": "bigint"
+      },
+      {
+        "name": "0.34_count",
+        "type": "bigint"
+      },
+      {
+        "name": "1_count",
+        "type": "bigint"
+      },
+      {
+        "name": "1.01_count",
+        "type": "bigint"
+      },
+      {
+        "name": "1.19_count",
+        "type": "bigint"
+      },
+      {
+        "name": "1.23_count",
+        "type": "bigint"
+      },
+      {
+        "name": "1.3_count",
+        "type": "bigint"
+      },
+      {
+        "name": "1.35_count",
+        "type": "bigint"
+      },
+      {
+        "name": "10_count",
+        "type": "bigint"
+      },
+      {
+        "name": "10.1_count",
+        "type": "bigint"
+      },
+      {
+        "name": "10.15_count",
+        "type": "bigint"
+      },
+      {
+        "name": "10.25_count",
+        "type": "bigint"
+      },
+      {
+        "name": "10.55_count",
+        "type": "bigint"
+      },
+      {
+        "name": "100.02_count",
+        "type": "bigint"
+      },
+      {
+        "name": "13.32_count",
+        "type": "bigint"
+      },
+      {
+        "name": "16.67_count",
+        "type": "bigint"
+      },
+      {
+        "name": "2.24_count",
+        "type": "bigint"
+      },
+      {
+        "name": "2.39_count",
+        "type": "bigint"
+      },
+      {
+        "name": "3_count",
+        "type": "bigint"
+      },
+      {
+        "name": "9.85_count",
+        "type": "bigint"
+      }
+    ],
+    "userModified": false,
+    "metadata": {
+      "engineType": "SQL",
+      "pivotElementsModalities": [
+        {
+          "pivotElement": {
+            "keyColumns": [
+              "LastSale"
+            ],
+            "valueLimit": "TOP_N",
+            "topnLimit": 20,
+            "minOccLimit": 0,
+            "explicitValues": [],
+            "globalCount": true,
+            "valueColumns": []
+          },
+          "pivotedModalities": [
+            {
+              "keyValues": [
+                "0.25"
+              ],
+              "name": "0.25",
+              "valueColumns": [],
+              "globalCountColumn": "0.25_count"
+            },
+            {
+              "keyValues": [
+                "0.34"
+              ],
+              "name": "0.34",
+              "valueColumns": [],
+              "globalCountColumn": "0.34_count"
+            },
+            {
+              "keyValues": [
+                "1"
+              ],
+              "name": "1",
+              "valueColumns": [],
+              "globalCountColumn": "1_count"
+            },
+            {
+              "keyValues": [
+                "1.01"
+              ],
+              "name": "1.01",
+              "valueColumns": [],
+              "globalCountColumn": "1.01_count"
+            },
+            {
+              "keyValues": [
+                "1.19"
+              ],
+              "name": "1.19",
+              "valueColumns": [],
+              "globalCountColumn": "1.19_count"
+            },
+            {
+              "keyValues": [
+                "1.23"
+              ],
+              "name": "1.23",
+              "valueColumns": [],
+              "globalCountColumn": "1.23_count"
+            },
+            {
+              "keyValues": [
+                "1.3"
+              ],
+              "name": "1.3",
+              "valueColumns": [],
+              "globalCountColumn": "1.3_count"
+            },
+            {
+              "keyValues": [
+                "1.35"
+              ],
+              "name": "1.35",
+              "valueColumns": [],
+              "globalCountColumn": "1.35_count"
+            },
+            {
+              "keyValues": [
+                "10"
+              ],
+              "name": "10",
+              "valueColumns": [],
+              "globalCountColumn": "10_count"
+            },
+            {
+              "keyValues": [
+                "10.1"
+              ],
+              "name": "10.1",
+              "valueColumns": [],
+              "globalCountColumn": "10.1_count"
+            },
+            {
+              "keyValues": [
+                "10.15"
+              ],
+              "name": "10.15",
+              "valueColumns": [],
+              "globalCountColumn": "10.15_count"
+            },
+            {
+              "keyValues": [
+                "10.25"
+              ],
+              "name": "10.25",
+              "valueColumns": [],
+              "globalCountColumn": "10.25_count"
+            },
+            {
+              "keyValues": [
+                "10.55"
+              ],
+              "name": "10.55",
+              "valueColumns": [],
+              "globalCountColumn": "10.55_count"
+            },
+            {
+              "keyValues": [
+                "100.02"
+              ],
+              "name": "100.02",
+              "valueColumns": [],
+              "globalCountColumn": "100.02_count"
+            },
+            {
+              "keyValues": [
+                "13.32"
+              ],
+              "name": "13.32",
+              "valueColumns": [],
+              "globalCountColumn": "13.32_count"
+            },
+            {
+              "keyValues": [
+                "16.67"
+              ],
+              "name": "16.67",
+              "valueColumns": [],
+              "globalCountColumn": "16.67_count"
+            },
+            {
+              "keyValues": [
+                "2.24"
+              ],
+              "name": "2.24",
+              "valueColumns": [],
+              "globalCountColumn": "2.24_count"
+            },
+            {
+              "keyValues": [
+                "2.39"
+              ],
+              "name": "2.39",
+              "valueColumns": [],
+              "globalCountColumn": "2.39_count"
+            },
+            {
+              "keyValues": [
+                "3"
+              ],
+              "name": "3",
+              "valueColumns": [],
+              "globalCountColumn": "3_count"
+            },
+            {
+              "keyValues": [
+                "9.85"
+              ],
+              "name": "9.85",
+              "valueColumns": [],
+              "globalCountColumn": "9.85_count"
+            }
+          ]
+        }
+      ]
+    }
   },
   "metrics": {
     "probes": [
