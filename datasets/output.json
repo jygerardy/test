@@ -28,11 +28,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1553483659152
+    "lastModifiedOn": 1553483663340
   },
   "creationTag": {
     "versionNumber": 0,
@@ -57,7 +57,28 @@
     "readSQLDateColsAsDSSDates": true
   },
   "schema": {
-    "columns": [],
+    "columns": [
+      {
+        "name": "Sector",
+        "type": "string",
+        "originalType": "text"
+      },
+      {
+        "name": "Symbol_distinct",
+        "type": "bigint",
+        "originalType": "int8"
+      },
+      {
+        "name": "count",
+        "type": "bigint",
+        "originalType": "int8"
+      },
+      {
+        "name": "count_sum",
+        "type": "bigint",
+        "originalType": "int8"
+      }
+    ],
     "userModified": true
   },
   "metrics": {
