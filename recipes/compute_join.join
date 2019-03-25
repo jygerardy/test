@@ -1,0 +1,110 @@
+{
+  "joins": [
+    {
+      "table2": 1,
+      "table1": 0,
+      "conditionsMode": "AND",
+      "type": "LEFT",
+      "outerJoinOnTheLeft": true,
+      "on": []
+    }
+  ],
+  "selectedColumns": [
+    {
+      "name": "Sector",
+      "table": 0
+    },
+    {
+      "name": "Symbol_distinct",
+      "table": 0
+    },
+    {
+      "name": "count",
+      "table": 0
+    },
+    {
+      "name": "Symbol",
+      "table": 1
+    },
+    {
+      "name": "Name",
+      "table": 1
+    },
+    {
+      "name": "LastSale",
+      "table": 1
+    },
+    {
+      "name": "MarketCap",
+      "table": 1
+    },
+    {
+      "name": "ADR TSO",
+      "table": 1
+    },
+    {
+      "name": "IPOyear",
+      "table": 1
+    },
+    {
+      "name": "Industry",
+      "table": 1
+    },
+    {
+      "name": "Summary Quote",
+      "table": 1
+    },
+    {
+      "name": "col_9",
+      "table": 1
+    }
+  ],
+  "engineParams": {
+    "hive": {
+      "skipPrerunValidate": false,
+      "hiveconf": [],
+      "inheritConf": "default",
+      "addDkuUdf": false,
+      "executionEngine": "HIVECLI_LOCAL"
+    },
+    "impala": {
+      "forceStreamMode": true
+    },
+    "lowerCaseSchemaIfEngineRequiresIt": true,
+    "sparkSQL": {
+      "pipelineAllowMerge": true,
+      "useGlobalMetastore": false,
+      "pipelineAllowStart": true,
+      "readParams": {
+        "map": {}
+      },
+      "overwriteOutputSchema": false,
+      "executionEngine": "SPARK_SUBMIT",
+      "sparkConfig": {
+        "inheritConf": "default",
+        "conf": []
+      }
+    }
+  },
+  "virtualInputs": [
+    {
+      "preFilter": {
+        "distinct": false,
+        "enabled": false
+      },
+      "autoSelectColumns": false,
+      "index": 0,
+      "computedColumns": []
+    },
+    {
+      "preFilter": {
+        "distinct": false,
+        "enabled": false
+      },
+      "autoSelectColumns": false,
+      "index": 1,
+      "computedColumns": []
+    }
+  ],
+  "enableAutoCastInJoinConditions": false
+}
