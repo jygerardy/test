@@ -1,0 +1,129 @@
+{
+  "preFilter": {
+    "distinct": false,
+    "enabled": false
+  },
+  "ntileValues": "10",
+  "values": [
+    {
+      "last": false,
+      "lagDiff": false,
+      "max": false,
+      "firstLastNotNull": false,
+      "column": "Sector",
+      "count": false,
+      "lagValues": "1",
+      "sum": false,
+      "concat": false,
+      "lead": false,
+      "concatDistinct": false,
+      "dateDiffUnit": "DAY",
+      "min": false,
+      "countDistinct": false,
+      "avg": false,
+      "lag": false,
+      "leadValues": "1",
+      "stddev": false,
+      "value": true,
+      "leadDiff": false,
+      "first": false
+    },
+    {
+      "last": false,
+      "lagDiff": false,
+      "max": false,
+      "firstLastNotNull": false,
+      "column": "Symbol_distinct",
+      "count": false,
+      "lagValues": "1",
+      "sum": false,
+      "concat": false,
+      "lead": false,
+      "concatDistinct": false,
+      "dateDiffUnit": "DAY",
+      "min": false,
+      "countDistinct": false,
+      "avg": false,
+      "lag": false,
+      "leadValues": "1",
+      "stddev": false,
+      "value": true,
+      "leadDiff": false,
+      "first": false
+    },
+    {
+      "last": false,
+      "lagDiff": false,
+      "max": false,
+      "firstLastNotNull": false,
+      "column": "count",
+      "count": false,
+      "lagValues": "1",
+      "sum": false,
+      "concat": false,
+      "lead": false,
+      "concatDistinct": false,
+      "dateDiffUnit": "DAY",
+      "min": false,
+      "countDistinct": false,
+      "avg": false,
+      "lag": false,
+      "leadValues": "1",
+      "stddev": false,
+      "value": true,
+      "leadDiff": false,
+      "first": false
+    }
+  ],
+  "engineParams": {
+    "hive": {
+      "skipPrerunValidate": false,
+      "hiveconf": [],
+      "inheritConf": "default",
+      "addDkuUdf": false,
+      "executionEngine": "HIVECLI_LOCAL"
+    },
+    "impala": {
+      "forceStreamMode": true
+    },
+    "lowerCaseSchemaIfEngineRequiresIt": true,
+    "sparkSQL": {
+      "pipelineAllowMerge": true,
+      "useGlobalMetastore": false,
+      "pipelineAllowStart": true,
+      "readParams": {
+        "map": {}
+      },
+      "overwriteOutputSchema": false,
+      "executionEngine": "SPARK_SUBMIT",
+      "sparkConfig": {
+        "inheritConf": "default",
+        "conf": []
+      }
+    }
+  },
+  "ntile": false,
+  "rank": false,
+  "denseRank": false,
+  "windows": [
+    {
+      "windowUpperBound": 0.0,
+      "enablePartitioning": false,
+      "enableOrdering": false,
+      "precedingRows": 0,
+      "limitFollowing": false,
+      "orders": [],
+      "limitPreceding": false,
+      "followingRows": 0,
+      "windowLowerBound": 0.0,
+      "enableLimits": false
+    }
+  ],
+  "rowNumber": false,
+  "computedColumns": [],
+  "postFilter": {
+    "distinct": false,
+    "enabled": false
+  },
+  "cumeDist": false
+}
