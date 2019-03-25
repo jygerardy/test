@@ -6,56 +6,86 @@
       "conditionsMode": "AND",
       "type": "LEFT",
       "outerJoinOnTheLeft": true,
-      "on": []
+      "on": [
+        {
+          "column1": {
+            "name": "Sector",
+            "table": 0
+          },
+          "dateDiffUnit": "DAY",
+          "column2": {
+            "name": "Sector",
+            "table": 1
+          },
+          "maxMatches": 1,
+          "caseInsensitive": false,
+          "maxDistance": 0,
+          "normalizeText": false,
+          "type": "EQ",
+          "strict": false
+        }
+      ]
     }
   ],
   "selectedColumns": [
     {
       "name": "Sector",
+      "type": "string",
       "table": 0
     },
     {
       "name": "Symbol_distinct",
+      "type": "bigint",
       "table": 0
     },
     {
       "name": "count",
+      "type": "bigint",
       "table": 0
     },
     {
       "name": "Symbol",
+      "type": "string",
       "table": 1
     },
     {
       "name": "Name",
+      "type": "string",
       "table": 1
     },
     {
       "name": "LastSale",
+      "type": "string",
       "table": 1
     },
     {
       "name": "MarketCap",
+      "type": "double",
       "table": 1
     },
     {
       "name": "ADR TSO",
+      "type": "string",
       "table": 1
     },
     {
       "name": "IPOyear",
+      "type": "string",
       "table": 1
     },
     {
       "name": "Industry",
+      "type": "string",
       "table": 1
     },
     {
       "name": "Summary Quote",
+      "type": "string",
       "table": 1
     },
     {
       "name": "col_9",
+      "type": "string",
       "table": 1
     }
   ],
@@ -106,5 +136,63 @@
       "computedColumns": []
     }
   ],
+  "computedColumns": [],
+  "postFilter": {
+    "$status": {
+      "schema": {
+        "columns": [
+          {
+            "name": "Sector",
+            "type": "string"
+          },
+          {
+            "name": "Symbol_distinct",
+            "type": "bigint"
+          },
+          {
+            "name": "count",
+            "type": "bigint"
+          },
+          {
+            "name": "Symbol",
+            "type": "string"
+          },
+          {
+            "name": "Name",
+            "type": "string"
+          },
+          {
+            "name": "LastSale",
+            "type": "string"
+          },
+          {
+            "name": "MarketCap",
+            "type": "double"
+          },
+          {
+            "name": "ADR TSO",
+            "type": "string"
+          },
+          {
+            "name": "IPOyear",
+            "type": "string"
+          },
+          {
+            "name": "Industry",
+            "type": "string"
+          },
+          {
+            "name": "Summary Quote",
+            "type": "string"
+          },
+          {
+            "name": "col_9",
+            "type": "string"
+          }
+        ],
+        "userModified": false
+      }
+    }
+  },
   "enableAutoCastInJoinConditions": false
 }
