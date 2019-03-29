@@ -28,5 +28,26 @@
     "key": "l18tOJRR5GGWOMR0KbeBfaOlXDD3DGlC",
     "label": "Key for Web app test(z0m8ONP)",
     "createdOn": 1552594893528
+  },
+  {
+    "execSQLLike": false,
+    "localDatasets": [],
+    "projectPrivileges": {
+      "admin": false,
+      "readProjectContent": false,
+      "writeProjectContent": false,
+      "exportDatasetsData": false,
+      "readDashboards": false,
+      "writeDashboards": false,
+      "moderateDashboards": false,
+      "runScenarios": false,
+      "manageDashboardAuthorizations": false,
+      "manageExposedElements": false,
+      "manageAdditionalDashboardUsers": false
+    },
+    "id": "4DHJAqxkglj0kr9x",
+    "key": "3vKh3qTf38hsSUm4JTFxbv5iW0UPMnhe",
+    "label": "Key for Web app test(BPweGNN)",
+    "createdOn": 1553875101145
   }
 ]
