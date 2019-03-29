@@ -1,16 +1,37 @@
+from dataiku.customwebapp import *
 import dataiku
-import pandas as pd
+from flask import request
+import json
+import requests
+import copy
 
 
-# Example:
-# From JavaScript, you can access the defined endpoints using
-# getWebAppBackendUrl('first_api_call')
 
-@app.route('/first_api_call')
-def first_call():
-    mydataset = dataiku.Dataset("REPLACE_WITH_YOUR_DATASET_NAME")
-    mydataset_df = mydataset.get_dataframe(sampling='head', limit=500)
 
-    #Pandas dataFrames are not directly JSON serializable, use to_json()
-    data = mydataset_df.to_json()
-    return json.dumps({"status": "ok", "data": data})
+endpoint = get_webapp_config().get("endpoint")
+apikey = get_webapp_config().get("apikey")
+
+def generate_grid(selected_var, features_json, counter_factuals):
+    grid = {"items": []}
+    for cf in counter_factuals:
+        new_features_json = copy.deepcopy(features_json)
+        new_features_json[selected_var] = cf
+        grid["items"].append(new_features_json)
+    return grid
+        
+        
+
+# need to score to make the API call from the backend to avoid CORS hell.
+@app.route('/score')
+def score():
+    features_json = request.args.get("featuresJson")
+    selected_variable = request.args.get("selectedVariable")
+    counter_factuals = request.args.get("counterFactuals")
+    
+    
+    
+    
+    print("Scoring grid:")
+    print(grid)
+    r = requests.post(endpoint, auth=(apikey, ''), data=grid)
+    return json.dumps({"data": r.json()})
