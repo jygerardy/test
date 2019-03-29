@@ -19,18 +19,13 @@ def generate_grid(selected_var, features_json, counter_factuals):
         grid["items"].append(new_features_json)
     return grid
         
-        
-
 # need to score to make the API call from the backend to avoid CORS hell.
 @app.route('/score')
 def score():
     features_json = request.args.get("featuresJson")
     selected_variable = request.args.get("selectedVariable")
     counter_factuals = request.args.get("counterFactuals")
-    
-    
-    
-    
+    grid = generate_grid(selected_var, features_json, counter_factuals)
     print("Scoring grid:")
     print(grid)
     r = requests.post(endpoint, auth=(apikey, ''), data=grid)
