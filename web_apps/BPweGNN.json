@@ -5,7 +5,7 @@
     "backendEnabled": true,
     "autoStartBackend": false,
     "envSelection": {
-      "envMode": "INHERIT"
+      "envMode": "USE_BUILTIN_MODE"
     },
     "libraries": [
       "jquery",
@@ -16,11 +16,11 @@
   "name": "test",
   "apiKey": "3vKh3qTf38hsSUm4JTFxbv5iW0UPMnhe",
   "versionTag": {
-    "versionNumber": 8,
+    "versionNumber": 9,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1553884727575
+    "lastModifiedOn": 1553885304034
   },
   "creationTag": {
     "versionNumber": 0,
