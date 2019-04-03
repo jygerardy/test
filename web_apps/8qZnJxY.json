@@ -12,15 +12,18 @@
       "dataiku"
     ]
   },
-  "config": {},
+  "config": {
+    "apikey": " { \"features\" : {     \"year\": 2013,     \"month\": 1,     \"day\": 1,     \"hour\": 0,     \"datetime\": \"2013-01-01T00:00:00.000Z\",     \"pollution\": 35,     \"dewp\": -10,     \"temp\": -5,     \"press\": 1018,     \"wind_dir\": \"NW\",     \"wind_speed\": 5.81,     \"snow\": 0,     \"rain\": 0,     \"pollution_lag24\": 97,     \"pollution_lag25\": 82,     \"pollution_lag26\": 26,     \"pollution_lag27\": 23,     \"pollution_lag28\": 19,     \"pollution_lag48\": 9,     \"dewp_lag24\": -16,     \"dewp_lag25\": -17,     \"dewp_lag26\": -17,     \"dewp_lag27\": -18,     \"dewp_lag28\": -19,     \"dewp_lag48\": -21,     \"temp_lag24\": -11,     \"temp_lag25\": -10,     \"temp_lag26\": -11,     \"temp_lag27\": -10,     \"temp_lag28\": -7,     \"temp_lag48\": -6,     \"press_lag24\": 1023,     \"press_lag25\": 1023,     \"press_lag26\": 1024,     \"press_lag27\": 1024,     \"press_lag28\": 1024,     \"press_lag48\": 1030,     \"wind_dir_lag24\": \"cv\",     \"wind_dir_lag25\": \"cv\",     \"wind_dir_lag26\": \"NE\",     \"wind_dir_lag27\": \"cv\",     \"wind_dir_lag28\": \"NW\",     \"wind_dir_lag48\": \"NW\",     \"wind_speed_lag24\": 1.78,     \"wind_speed_lag25\": 0.89,     \"wind_speed_lag26\": 1.79,     \"wind_speed_lag27\": 0.89,     \"wind_speed_lag28\": 120.26,     \"wind_speed_lag48\": 16.09,     \"snow_lag24\": 0,     \"snow_lag25\": 0,     \"snow_lag26\": 0,     \"snow_lag27\": 0,     \"snow_lag28\": 0,     \"snow_lag48\": 0,     \"rain_lag24\": 0,     \"rain_lag25\": 0,     \"rain_lag26\": 0,     \"rain_lag27\": 0,     \"rain_lag28\": 0,     \"rain_lag48\": 0   }}",
+    "endpoint": "http://localhost:12600/public/api/v1/custom_code/custom_pollution/predict-multi"
+  },
   "name": "prout",
   "apiKey": "DdeEnq7wIXynjMH3EQikW8MFsdzEegkt",
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1554328318812
+    "lastModifiedOn": 1554328356179
   },
   "creationTag": {
     "versionNumber": 0,
