@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1554304750395
+    "lastModifiedOn": 1554304807316
   },
   "creationTag": {
     "versionNumber": 0,
@@ -85,8 +85,49 @@
     }
   },
   "schema": {
-    "columns": [],
-    "userModified": true
+    "columns": [
+      {
+        "name": "col_0",
+        "type": "string"
+      },
+      {
+        "name": "col_1",
+        "type": "string"
+      },
+      {
+        "name": "col_2",
+        "type": "string"
+      },
+      {
+        "name": "col_3",
+        "type": "string"
+      },
+      {
+        "name": "col_4",
+        "type": "string"
+      },
+      {
+        "name": "col_5",
+        "type": "string"
+      },
+      {
+        "name": "col_6",
+        "type": "string"
+      },
+      {
+        "name": "col_7",
+        "type": "string"
+      },
+      {
+        "name": "col_8",
+        "type": "string"
+      },
+      {
+        "name": "col_9",
+        "type": "double"
+      }
+    ],
+    "userModified": false
   },
   "metrics": {
     "probes": [
