@@ -12,15 +12,17 @@
       "dataiku"
     ]
   },
-  "config": {},
+  "config": {
+    "endpoint": "http://localhost:12600/public/api/v1/custom_code/custom_pollution/predict-multi"
+  },
   "name": "test2",
   "apiKey": "OqTctUlUgu4ImWAcmYTwZv9dJq8cR4rl",
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1554323259441
+    "lastModifiedOn": 1554323279061
   },
   "creationTag": {
     "versionNumber": 0,
