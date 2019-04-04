@@ -12,15 +12,17 @@
       "dataiku"
     ]
   },
-  "config": {},
+  "config": {
+    "endpoint": "http://localhost:12600/public/api/v1/custom_code/custom_pollution/predict-multi"
+  },
   "name": "coucou",
   "apiKey": "0RuYXZj0od5hZf32hmY6CpCHlW5NfHIu",
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1554391893798
+    "lastModifiedOn": 1554391908248
   },
   "creationTag": {
     "versionNumber": 0,
