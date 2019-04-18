@@ -139,5 +139,26 @@
     "key": "0RuYXZj0od5hZf32hmY6CpCHlW5NfHIu",
     "label": "Key for Web app coucou(NQedMsk)",
     "createdOn": 1554391893795
+  },
+  {
+    "execSQLLike": false,
+    "localDatasets": [],
+    "projectPrivileges": {
+      "admin": false,
+      "readProjectContent": false,
+      "writeProjectContent": false,
+      "exportDatasetsData": false,
+      "readDashboards": false,
+      "writeDashboards": false,
+      "moderateDashboards": false,
+      "runScenarios": false,
+      "manageDashboardAuthorizations": false,
+      "manageExposedElements": false,
+      "manageAdditionalDashboardUsers": false
+    },
+    "id": "pYGFeRS1EODnuPaP",
+    "key": "XviNI5SmYqxam8jewTL8XZuRi9A2MT73",
+    "label": "Key for Web app dowhy(Pw3s3ez)",
+    "createdOn": 1555555460541
   }
 ]
