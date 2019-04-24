@@ -3,7 +3,25 @@
     {
       "id": "L2wePkM",
       "grid": {
-        "tiles": []
+        "tiles": [
+          {
+            "tileType": "INSIGHT",
+            "box": {
+              "top": -1,
+              "left": -1,
+              "width": 3,
+              "height": 3
+            },
+            "clickAction": "DO_NOTHING",
+            "tileParams": {},
+            "autoLoad": true,
+            "showTitle": "NO",
+            "insightId": "JbISe4F",
+            "insightType": "web_app",
+            "displayMode": "INSIGHT",
+            "resizeImageMode": "FIT_SIZE"
+          }
+        ]
       },
       "showTitle": false
     }
@@ -13,11 +31,11 @@
   "name": "Plugins_dev\u0027s default dashboard",
   "showGrid": true,
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1552591111351
+    "lastModifiedOn": 1556134323874
   },
   "creationTag": {
     "versionNumber": 0,
