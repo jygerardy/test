@@ -31,11 +31,11 @@
   "name": "Plugins_dev\u0027s default dashboard",
   "showGrid": true,
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1556134323874
+    "lastModifiedOn": 1556134324905
   },
   "creationTag": {
     "versionNumber": 0,
