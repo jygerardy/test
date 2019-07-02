@@ -153,23 +153,27 @@
       "python": {}
     },
     "displayedState": {
+      "partition": "NP",
       "columns": [],
-      "metrics": []
+      "metrics": [
+        "external:hey"
+      ]
     }
   },
   "metricsChecks": {
     "runOnBuild": false,
     "checks": [],
     "displayedState": {
+      "partition": "NP",
       "checks": []
     }
   },
   "versionTag": {
-    "versionNumber": 12,
+    "versionNumber": 13,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1556134323740
+    "lastModifiedOn": 1562090260789
   },
   "creationTag": {
     "versionNumber": 0,
