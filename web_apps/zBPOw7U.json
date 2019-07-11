@@ -1,0 +1,37 @@
+{
+  "type": "webapp_interactive-scoring_endpoint-range-scoring",
+  "hasLegacyBackendURL": false,
+  "params": {
+    "backendEnabled": true,
+    "autoStartBackend": false,
+    "envSelection": {
+      "envMode": "INHERIT"
+    },
+    "libraries": [
+      "jquery",
+      "dataiku"
+    ]
+  },
+  "config": {},
+  "name": "nbnvcfds",
+  "apiKey": "ZWdkNCr88jVKCxuFmFYY6A77AKOKhIQA",
+  "versionTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1562850361768
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1562850361768
+  },
+  "tags": [],
+  "checklists": {
+    "checklists": []
+  },
+  "customFields": {}
+}
