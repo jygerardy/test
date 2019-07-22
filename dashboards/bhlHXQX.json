@@ -13,11 +13,32 @@
               "height": 3
             },
             "clickAction": "DO_NOTHING",
-            "tileParams": {},
+            "tileParams": {
+              "loadTimeoutInSeconds": 0
+            },
             "autoLoad": true,
             "showTitle": "NO",
             "insightId": "JbISe4F",
             "insightType": "web_app",
+            "displayMode": "INSIGHT",
+            "resizeImageMode": "FIT_SIZE"
+          },
+          {
+            "tileType": "INSIGHT",
+            "box": {
+              "top": -1,
+              "left": -1,
+              "width": 4,
+              "height": 5
+            },
+            "clickAction": "DO_NOTHING",
+            "tileParams": {
+              "showCode": false
+            },
+            "autoLoad": true,
+            "showTitle": "YES",
+            "insightId": "LItdh9w",
+            "insightType": "jupyter",
             "displayMode": "INSIGHT",
             "resizeImageMode": "FIT_SIZE"
           }
@@ -31,11 +52,11 @@
   "name": "Plugins_dev\u0027s default dashboard",
   "showGrid": true,
   "versionTag": {
-    "versionNumber": 2,
+    "versionNumber": 3,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1556134324905
+    "lastModifiedOn": 1563807011003
   },
   "creationTag": {
     "versionNumber": 0,
