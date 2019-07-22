@@ -7,8 +7,8 @@
           {
             "tileType": "INSIGHT",
             "box": {
-              "top": -1,
-              "left": -1,
+              "top": 0,
+              "left": 0,
               "width": 3,
               "height": 3
             },
@@ -26,10 +26,10 @@
           {
             "tileType": "INSIGHT",
             "box": {
-              "top": -1,
-              "left": -1,
-              "width": 4,
-              "height": 5
+              "top": 0,
+              "left": 3,
+              "width": 9,
+              "height": 8
             },
             "clickAction": "DO_NOTHING",
             "tileParams": {
@@ -52,11 +52,11 @@
   "name": "Plugins_dev\u0027s default dashboard",
   "showGrid": true,
   "versionTag": {
-    "versionNumber": 4,
+    "versionNumber": 5,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1563807012082
+    "lastModifiedOn": 1563807023524
   },
   "creationTag": {
     "versionNumber": 0,
