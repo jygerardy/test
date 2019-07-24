@@ -3,13 +3,13 @@
   "id": "qwerty",
   "type": "step_based",
   "name": "qwerty",
-  "active": false,
+  "active": true,
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1556566794368
+    "lastModifiedOn": 1563983248436
   },
   "checklists": {
     "checklists": []
