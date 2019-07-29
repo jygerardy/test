@@ -9,5 +9,6 @@ from flask import request
 @app.route('/first_api_call')
 def first_call():
     my_data = request.args.get('myData')
+    print(my_data)
 
     return json.dumps({"status": "ok", "data": "hey"})
