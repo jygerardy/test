@@ -2,8 +2,8 @@
 
 
 $(document).ready(function () {
-    var modifiedData = {"myData":[1,2,3,4]};
-    sendData();
+    let modifiedData = {"myData":[1,2,3,4]};
+    sendData(modifiedData);
 })
                   
 var sendData =  function (modifiedData){     
