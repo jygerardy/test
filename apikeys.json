@@ -190,5 +190,26 @@
     "key": "ZWdkNCr88jVKCxuFmFYY6A77AKOKhIQA",
     "label": "Key for Web app nbnvcfds(zBPOw7U)",
     "createdOn": 1562850361715
+  },
+  {
+    "execSQLLike": false,
+    "localDatasets": [],
+    "projectPrivileges": {
+      "admin": false,
+      "readProjectContent": false,
+      "writeProjectContent": false,
+      "exportDatasetsData": false,
+      "readDashboards": false,
+      "writeDashboards": false,
+      "moderateDashboards": false,
+      "runScenarios": false,
+      "manageDashboardAuthorizations": false,
+      "manageExposedElements": false,
+      "manageAdditionalDashboardUsers": false
+    },
+    "id": "RCELflAKLIwlsdlc",
+    "key": "30zTnHUC8XyJv3Fw9Ps35g1hdSkkdksZ",
+    "label": "Key for Web app test(GmCEmZO)",
+    "createdOn": 1564435021311
   }
 ]
