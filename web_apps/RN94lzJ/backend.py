@@ -11,4 +11,4 @@ from flask import request
 def first_call():
     my_data = request.args.get('myData')
     print(my_data)
-    return json.dumps({"status": "ok", "data": data})
+    return
