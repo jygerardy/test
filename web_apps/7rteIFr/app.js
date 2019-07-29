@@ -69,7 +69,7 @@ fetchButton.addEventListener('click', function(event) {
 });
 
 var sendData = function() {
-    var data = {"myData":[1,2,3,4]}
+    var data = {"myData":"test"};
 $.getJSON(getWebAppBackendUrl('/first_api_call'), function(data) {
     console.log('Received data from backend', data)
     const output = $('<pre />').text('Backend reply: ' + JSON.stringify(data));
