@@ -9,7 +9,6 @@ from flask import request
 
 @app.route('/first_api_call')
 def first_call():
-
-    #Pandas dataFrames are not directly JSON serializable, use to_json()
-    data = mydataset_df.to_json()
+    my_data = request.args.get('myData')
+    print(my_data)
     return json.dumps({"status": "ok", "data": data})
