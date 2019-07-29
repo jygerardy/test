@@ -9,6 +9,7 @@ from flask import request
 
 @app.route('/first_api_call')
 def first_call():
+    print(request.args)
     my_data = request.args.get('myData')
     print(my_data)
     return 'Hello, World!'
