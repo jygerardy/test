@@ -211,5 +211,26 @@
     "key": "30zTnHUC8XyJv3Fw9Ps35g1hdSkkdksZ",
     "label": "Key for Web app test(GmCEmZO)",
     "createdOn": 1564435021311
+  },
+  {
+    "execSQLLike": false,
+    "localDatasets": [],
+    "projectPrivileges": {
+      "admin": false,
+      "readProjectContent": false,
+      "writeProjectContent": false,
+      "exportDatasetsData": false,
+      "readDashboards": false,
+      "writeDashboards": false,
+      "moderateDashboards": false,
+      "runScenarios": false,
+      "manageDashboardAuthorizations": false,
+      "manageExposedElements": false,
+      "manageAdditionalDashboardUsers": false
+    },
+    "id": "wOwHsxJNGEMyCLud",
+    "key": "rZF92TVcyWmu71zxVGbtwRqrF9EnWAxo",
+    "label": "Key for Web app test(RN94lzJ)",
+    "createdOn": 1564435042189
   }
 ]
