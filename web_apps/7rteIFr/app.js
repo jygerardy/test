@@ -6,7 +6,7 @@ $(document).ready(function () {
     sendData();
 })
                   
-var sendData =  function (){     
+var sendData =  function (modifiedData){     
     $.getJSON(getWebAppBackendUrl('/first_api_call'), modifiedData,  function(data) {
     console.log(data.status)
 });
