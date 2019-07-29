@@ -11,4 +11,6 @@ from flask import request
 def first_call():
     my_data = request.args.get('myData')
     print(my_data)
-    return 200
+    return 'Hello, World!'
+
+
