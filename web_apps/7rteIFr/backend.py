@@ -8,6 +8,7 @@ from flask import request
 
 @app.route('/first_api_call')
 def first_call():
+    print("X"*100)
     my_data = request.args.get('myData')
     print(my_data)
 
