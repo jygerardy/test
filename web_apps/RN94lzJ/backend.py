@@ -1,6 +1,6 @@
 import dataiku
 import pandas as pd
-from flask import requests
+from flask import request
 
 
 # Example:
