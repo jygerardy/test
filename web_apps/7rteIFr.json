@@ -1,0 +1,37 @@
+{
+  "type": "STANDARD",
+  "hasLegacyBackendURL": false,
+  "params": {
+    "backendEnabled": false,
+    "autoStartBackend": false,
+    "envSelection": {
+      "envMode": "INHERIT"
+    },
+    "libraries": [
+      "jquery",
+      "dataiku"
+    ]
+  },
+  "config": {},
+  "name": "test2",
+  "apiKey": "vji7WwGJZYleJsOpu0jTRRpGLTQ7249o",
+  "versionTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1564436316309
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1564436316309
+  },
+  "tags": [],
+  "checklists": {
+    "checklists": []
+  },
+  "customFields": {}
+}
