@@ -1,6 +1,6 @@
 import dataiku
 import pandas as pd
-from Flask import request
+from flask import request
 
 # Example:
 # From JavaScript, you can access the defined endpoints using
