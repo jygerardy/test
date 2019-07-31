@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 3,
+    "versionNumber": 4,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1564586994403
+    "lastModifiedOn": 1564589416530
   },
   "creationTag": {
     "versionNumber": 0,
@@ -102,10 +102,6 @@
         "type": "string"
       },
       {
-        "name": "newcolumn_expression",
-        "type": "string"
-      },
-      {
         "name": "MarketCap",
         "type": "double"
       },
@@ -132,11 +128,6 @@
       {
         "name": "col_9",
         "type": "string"
-      },
-      {
-        "name": "test",
-        "type": "string",
-        "meaning": "Text"
       }
     ],
     "userModified": true
