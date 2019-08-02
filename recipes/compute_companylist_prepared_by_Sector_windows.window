@@ -85,15 +85,23 @@
   "windows": [
     {
       "windowUpperBound": 0,
-      "enablePartitioning": false,
-      "enableOrdering": false,
+      "enablePartitioning": true,
+      "enableOrdering": true,
       "precedingRows": 0,
       "limitFollowing": false,
-      "orders": [],
+      "orders": [
+        {
+          "column": "Symbol_distinct",
+          "desc": false
+        }
+      ],
       "limitPreceding": false,
       "followingRows": 0,
       "windowLowerBound": 0,
-      "enableLimits": false
+      "enableLimits": false,
+      "partitioningColumns": [
+        "Sector"
+      ]
     }
   ],
   "computedColumns": [],
@@ -116,6 +124,10 @@
           {
             "name": "count_sum",
             "type": "bigint"
+          },
+          {
+            "name": "cumedist",
+            "type": "double"
           }
         ],
         "userModified": false
@@ -124,7 +136,7 @@
     "distinct": false,
     "enabled": false
   },
-  "cumeDist": false,
+  "cumeDist": true,
   "engineParams": {
     "hive": {
       "skipPrerunValidate": false,
