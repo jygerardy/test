@@ -2,7 +2,7 @@
   "type": "STANDARD",
   "hasLegacyBackendURL": false,
   "params": {
-    "backendEnabled": false,
+    "backendEnabled": true,
     "autoStartBackend": false,
     "envSelection": {
       "envMode": "INHERIT"
@@ -16,11 +16,11 @@
   "name": "push-pull",
   "apiKey": "FVLJJhTkiX686xruBFuXpggp1o28K0xB",
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1565119208149
+    "lastModifiedOn": 1565119230003
   },
   "creationTag": {
     "versionNumber": 0,
