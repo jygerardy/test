@@ -1,6 +1,7 @@
 import dataiku
 import pandas as pd
 import dataikuapi
+from datetime import datetime
 
 
 
@@ -13,11 +14,18 @@ auto_api_key = 'tGrJvlIQZDRjLnOq5DrftqWUs1UMxCYC'
 
 client_auto = dataikuapi.DSSClient(auto_hostname, auto_api_key)
 client_design = dataiku.api_client()
-
+project_design = client_design.get_project(project)
+project_auto = client_auto.get_project(project)
 
 
 def list_bundles(bundles):
-    return 
+    return
+
+
+def create_bundle():
+    name = str(datetime.now())
+    project_design.export_bundle(name)
+    
 
 
 
