@@ -2,12 +2,13 @@ import dataiku
 import pandas as pd
 import dataikuapi
 from datetime import datetime
+import logging 
+import functools
 
 
+logging.basicConfig(format='%(asctime)s [%(levelname)s] %(message)s', level=logging.INFO)
+logging.getLogger().setLevel(logging.INFO)
 
-# Example:
-# From JavaScript, you can access the defined endpoints using
-# getWebAppBackendUrl('first_api_call')
 
 auto_hostname = 'http://localhost:30500'
 auto_api_key = 'tGrJvlIQZDRjLnOq5DrftqWUs1UMxCYC'
@@ -17,17 +18,30 @@ client_design = dataiku.api_client()
 project_design = client_design.get_project(project)
 project_auto = client_auto.get_project(project)
 
+def exception(function):
+    @functools.wraps(function)
+    def wrapper(*args, **kwargs):        
+        try:
+            return function(*args, **kwargs)
+        except Exception as e:
+            message = '{} in function: {}'.format(e, function.__name__)
+            logging.info(message)           
+    return wrapper
+
+
 
 def list_bundles(bundles):
     return
 
-
+@exception
+@app.route('create_bundle')
 def create_bundle():
-    name = str(datetime.now())
+    """
+    create bundle with name=current timestamp
+    """
+    name = str(datetime.now())           
     project_design.export_bundle(name)
-    
-
-
+        
 
 @app.route('/first_api_call')
 def first_call():
