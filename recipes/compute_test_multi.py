@@ -16,4 +16,4 @@ df = pd.read_csv('Users/jygerardy/Downloads/multilevel_index.csv')
 
 # Write recipe outputs
 test_multi = dataiku.Dataset("test_multi")
-test_multi.write_with_schema(test_multi_df)
+test_multi.write_with_schema(df)
