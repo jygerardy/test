@@ -38,7 +38,7 @@
       "params": {
         "mode": "CELL",
         "stopOnError": true,
-        "pythonSourceCode": "# Modify the process function to fit your needs\nfrom time import time\ndef process(row):\n    # In \u0027cell\u0027 mode, the process function must return\n    # a single cell value for each row,\n    # which will be affected to a new column.\n    # The \u0027row\u0027 argument is a dictionary of columns of the row\n    time.sleep(0.1)\n    return len(row)\n",
+        "pythonSourceCode": "# Modify the process function to fit your needs\nimport time\ndef process(row):\n    # In \u0027cell\u0027 mode, the process function must return\n    # a single cell value for each row,\n    # which will be affected to a new column.\n    # The \u0027row\u0027 argument is a dictionary of columns of the row\n    time.sleep(0.1)\n    return len(row)\n",
         "column": "len",
         "usePythonUnicode": true
       },
