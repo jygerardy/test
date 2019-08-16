@@ -94,8 +94,9 @@
     },
     "codeEnvs": {
       "python": {
-        "useBuiltinEnv": true,
-        "preventOverride": false
+        "useBuiltinEnv": false,
+        "preventOverride": false,
+        "envName": "churn"
       },
       "r": {
         "useBuiltinEnv": true,
@@ -193,11 +194,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 15,
+    "versionNumber": 16,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1565982531894
+    "lastModifiedOn": 1565983061553
   },
   "creationTag": {
     "versionNumber": 0,
