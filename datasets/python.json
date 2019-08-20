@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1566300650945
+    "lastModifiedOn": 1566301182914
   },
   "creationTag": {
     "versionNumber": 0,
@@ -85,8 +85,49 @@
     }
   },
   "schema": {
-    "columns": [],
-    "userModified": true
+    "columns": [
+      {
+        "name": "Symbol",
+        "type": "string"
+      },
+      {
+        "name": "Name",
+        "type": "string"
+      },
+      {
+        "name": "LastSale",
+        "type": "string"
+      },
+      {
+        "name": "MarketCap",
+        "type": "double"
+      },
+      {
+        "name": "ADR TSO",
+        "type": "string"
+      },
+      {
+        "name": "IPOyear",
+        "type": "string"
+      },
+      {
+        "name": "Sector",
+        "type": "string"
+      },
+      {
+        "name": "Industry",
+        "type": "string"
+      },
+      {
+        "name": "Summary Quote",
+        "type": "string"
+      },
+      {
+        "name": "col_9",
+        "type": "string"
+      }
+    ],
+    "userModified": false
   },
   "metrics": {
     "probes": [
