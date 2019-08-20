@@ -14,8 +14,6 @@ repr(schema_in)
 _out.write_schema(schema_in)
 
 
-
-
 with _out.get_writer() as writer:
     for d in _in.iter_rows():
         writer.write_row_dict(d)
