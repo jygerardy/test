@@ -1,28 +1,21 @@
+# -------------------------------------------------------------------------------- NOTEBOOK-CELL: CODE
 # -*- coding: utf-8 -*-
 import dataiku
 import pandas as pd, numpy as np
 from dataiku import pandasutils as pdu
 
 # Read recipe inputs
-distinct_prepared = dataiku.Dataset("distinct_prepared")
-#distinct_prepared_df = distinct_prepared.get_dataframe()
+_in = dataiku.Dataset("distinct_prepared")
+_out = dataiku.Dataset("python")
 
+schema_in = _in.read_schema()
+repr(schema_in)
 
-py_recipe_output = dataiku.Dataset("python")
-writer = py_recipe_output.get_writer()
-
-# d is of the form :
-#   {'col_0': value0, 'col_1': value1, ...}
-
-
-for d in data_to_write:
-    writer.write_row_dict(r)
+_out.write_schema(schema_in)
 
 
 
 
-
-
-# Compute recipe outputs from inputs
-# TODO: Replace this part by your actual code that computes the output, as a Pandas dataframe
-# NB: DSS also supports other kinds of APIs for reading and writing data. Please see doc.
+with _out.get_writer() as writer:
+    for d in _in.iter_rows():
+        writer.write_row_dict(d)
