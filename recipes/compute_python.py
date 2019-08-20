@@ -8,7 +8,6 @@ from dataiku import pandasutils as pdu
 _in = dataiku.Dataset("distinct_prepared")
 _out = dataiku.Dataset("python")
 
-schema_in = _in.read_schema()
 schema_out = [{u'type': u'string', u'name': u'Symbol'},
               {u'type': u'string', u'name': u'Name'},
               {u'type': u'string', u'name': u'LastSale'},
