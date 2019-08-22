@@ -82,6 +82,7 @@
       "first": false
     }
   ],
+  "engineType": "DSS",
   "windows": [
     {
       "windowUpperBound": 0,
