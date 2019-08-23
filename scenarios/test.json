@@ -5,11 +5,11 @@
   "name": "test",
   "active": false,
   "versionTag": {
-    "versionNumber": 5,
+    "versionNumber": 6,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1566601984424
+    "lastModifiedOn": 1566602065085
   },
   "checklists": {
     "checklists": []
@@ -36,7 +36,7 @@
         "runConditionExpression": "",
         "resetScenarioStatus": false,
         "params": {
-          "script": "import time\n\ntime.sleep(5)\n\nimprot",
+          "script": "import time\n\ntime.sleep(10)\n\nimprot",
           "envSelection": {
             "envMode": "INHERIT"
           },
@@ -52,7 +52,7 @@
           "FAILED"
         ],
         "runConditionExpression": "",
-        "resetScenarioStatus": true,
+        "resetScenarioStatus": false,
         "params": {
           "scenarioId": "test",
           "proceedOnFailure": false
