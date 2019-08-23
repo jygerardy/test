@@ -5,11 +5,11 @@
   "name": "test",
   "active": false,
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1566601748869
+    "lastModifiedOn": 1566601932266
   },
   "checklists": {
     "checklists": []
@@ -23,7 +23,41 @@
   "triggers": [],
   "reporters": [],
   "params": {
-    "steps": []
+    "steps": [
+      {
+        "id": "custom_python_fv43uF6zOaAfZ5vt3midkA",
+        "type": "custom_python",
+        "name": "Step #1",
+        "runConditionType": "RUN_IF_STATUS_MATCH",
+        "runConditionStatuses": [
+          "SUCCESS",
+          "WARNING"
+        ],
+        "runConditionExpression": "",
+        "resetScenarioStatus": false,
+        "params": {
+          "script": "import time\n\ntime.sleep(5)\n\nimprot",
+          "envSelection": {
+            "envMode": "INHERIT"
+          },
+          "proceedOnFailure": false
+        }
+      },
+      {
+        "id": "run_scenario_null.null",
+        "type": "run_scenario",
+        "name": "Step #3",
+        "runConditionType": "RUN_IF_STATUS_MATCH",
+        "runConditionStatuses": [
+          "FAILED"
+        ],
+        "runConditionExpression": "",
+        "resetScenarioStatus": true,
+        "params": {
+          "proceedOnFailure": false
+        }
+      }
+    ]
   },
   "automationLocal": false,
   "customFields": {}
