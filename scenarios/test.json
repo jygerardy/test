@@ -5,11 +5,11 @@
   "name": "test",
   "active": false,
   "versionTag": {
-    "versionNumber": 2,
+    "versionNumber": 3,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1566601935231
+    "lastModifiedOn": 1566601959905
   },
   "checklists": {
     "checklists": []
@@ -49,7 +49,8 @@
         "name": "Step #3",
         "runConditionType": "RUN_IF_STATUS_MATCH",
         "runConditionStatuses": [
-          "FAILED"
+          "SUCCESS",
+          "WARNING"
         ],
         "runConditionExpression": "",
         "resetScenarioStatus": true,
