@@ -4,10 +4,11 @@
   "optionalDependencies": false,
   "params": {
     "envSelection": {
-      "envMode": "INHERIT"
+      "envMode": "EXPLICIT_ENV",
+      "envName": "azure"
     },
     "containerSelection": {
-      "containerMode": "INHERIT"
+      "containerMode": "NONE"
     },
     "skipPrerunValidate": false
   },
@@ -37,11 +38,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1566845710534
+    "lastModifiedOn": 1566845723360
   },
   "creationTag": {
     "versionNumber": 0,
