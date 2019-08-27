@@ -52,6 +52,20 @@
       "manageDashboardAuthorizations": false,
       "manageExposedElements": false,
       "manageAdditionalDashboardUsers": false
+    },
+    {
+      "group": "data_team",
+      "admin": false,
+      "readProjectContent": false,
+      "writeProjectContent": true,
+      "exportDatasetsData": true,
+      "readDashboards": false,
+      "writeDashboards": false,
+      "moderateDashboards": false,
+      "runScenarios": false,
+      "manageDashboardAuthorizations": false,
+      "manageExposedElements": false,
+      "manageAdditionalDashboardUsers": false
     }
   ],
   "additionalDashboardUsers": {
@@ -193,11 +207,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 18,
+    "versionNumber": 19,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1566938343225
+    "lastModifiedOn": 1566938446371
   },
   "creationTag": {
     "versionNumber": 0,
